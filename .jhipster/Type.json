@@ -1,0 +1,28 @@
+{
+    "fluentMethods": true,
+    "relationships": [
+        {
+            "relationshipName": "imei",
+            "otherEntityName": "imei",
+            "relationshipType": "many-to-many",
+            "ownerSide": false,
+            "otherEntityRelationshipName": "type"
+        }
+    ],
+    "fields": [
+        {
+            "fieldName": "name",
+            "fieldType": "String",
+            "fieldValidateRules": [
+                "required"
+            ]
+        }
+    ],
+    "changelogDate": "20161130135828",
+    "dto": "no",
+    "service": "no",
+    "entityTableName": "type",
+    "pagination": "no",
+    "microserviceName": "noti",
+    "searchEngine": false
+}
